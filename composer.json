@@ -1,0 +1,13 @@
+{
+    "name": "myapp/facebook-poster",
+    "description": "A Facebook page poster application",
+    "type": "project",
+    "require": {
+        "facebook/graph-sdk": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
